@@ -11,3 +11,10 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+.messageForm div{
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin: 10px 0;
+}
