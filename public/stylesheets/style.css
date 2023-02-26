@@ -14,7 +14,12 @@ a {
 
 .messageForm div{
   display: flex;
-  justify-content: space-between;
-  width: 35%;
+  flex-direction: column;
+  width: fit-content;
   margin: 10px 0;
+  gap:5px;
+}
+
+textarea{
+  font-family: inherit;
 }
