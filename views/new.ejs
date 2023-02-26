@@ -10,11 +10,11 @@
     <form method="POST" action="/new" class="messageForm">
         <div>
             <label for="authorName">Author Name: </label>
-            <input type="text" id="authorName" name="messageUser" required>
+            <input type="text" id="authorName" name="messageUser" required autocomplete="off">
         </div>
         <div>
             <label for="message">Message: </label>
-            <textarea id="message" rows="10" name="messageText" required></textarea>
+            <input type="text" id="message"  name="messageText" required autocomplete="off">
         </div>
         <input type="submit" value="Sent">
 

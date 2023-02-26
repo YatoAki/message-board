@@ -12,6 +12,18 @@ a {
   justify-content: space-between;
 }
 
+.inbox{
+  margin-top: 50px;
+}
+
+.eachMsg{
+  margin: 20px 0;
+}
+
+.eachMsg h3{
+  margin: 0;
+}
+
 .messageForm div{
   display: flex;
   flex-direction: column;

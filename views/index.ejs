@@ -7,15 +7,20 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
-    <% Object.keys(messages).forEach(function(key) { %>
-      <h3><%= messages[key].user %></h3>
-      <div class="textContainer">
-        <p><%= messages[key].text %></p>
-        <p><%= messages[key].added %></p>
-      </div>
-      
-    <% }); %>
-      <br>
+    <div class="inbox">
+      <% Object.keys(messages).forEach(function(key) { %>
+        <div class="eachMsg">
+          <h3><%= messages[key].user %></h3>
+          <div class="textContainer">
+            <p><%= messages[key].text %></p>
+            <p><%= messages[key].added %></p>
+          </div>
+        </div>
+        
+        
+      <% }); %>
+    </div>
+    
     <a href="/new">Sent a message</a>
   </body>
 </html>
