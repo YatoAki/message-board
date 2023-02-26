@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+.textContainer{
+  display: flex;
+  justify-content: space-between;
+}
